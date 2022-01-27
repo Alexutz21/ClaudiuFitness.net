@@ -1,0 +1,168 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    /* text-align: center; */
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar  */
+.navbar {
+    margin: auto;
+    padding: 10px 3% 10px;
+    background-color: black;
+}
+
+/* Carousel */
+/* Feature */
+/* #features .row .col {
+    margin: 180px 0;
+}
+
+#features .row .col h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#features .row .col p {
+    color: black;
+    margin-top: 3%;
+}
+
+#features .row .col i {
+    font-size: 67px;
+    color: #000000;
+    margin: 15px auto;
+}
+
+#features .row .col i:hover {
+    color: #000769;
+} */
+/* About-me */
+#about-me{
+    width: auto;
+    height: 700px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: linear-gradient(
+        /* this is the photo of our service backgroun */
+        rgba(0, 0, 0, 0.795),
+        rgba(0, 0, 0, 0.445)),
+    url(../img/about-me3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding: 30px auto;
+}
+#about-me h3, p {
+    font-size: 1rem;
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#about-me img {
+    padding: 20px auto;
+    width: 350px;
+    height: 280px;
+    border-radius: 5%;
+}
+/* Video-of-me */
+
+
+/* pricing */
+#pricing {
+    margin: 5% 5%;
+}
+
+#pricing .pricingH2 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #2b2323;
+}
+
+.plan h3 {
+    color: #2b2323;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+#pricing .plan .row .card-header h3 {
+    color: #2b2323;
+}
+
+.plan {
+    padding: 20px 0 20px 0;
+    margin-bottom: 7%;
+    /* border: 2px solid #ff4c68;
+  border-radius: 20px;
+  background-color: #ff4c68; */
+    transition: all 0.5s;
+}
+
+/*--------Get in Touch---------*/
+#contact {
+    background: #000000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.contac-form {
+    padding: 10px;
+}
+
+.form-control {
+    border-radius: 10 !important;
+    border: 2 !important;
+}
+
+::placeholder {
+    color: #999 !important;
+}
+
+.form-group {
+    padding-bottom: 10px;
+}
+
+.follow {
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact-info .fa {
+    margin: auto;
+    color: #0400ff;
+    font: bold;
+}
+
+
+/* Footer */
+.footer {
+    background-color: white;
+    height: 50px;
+    text-align: center;
+}
+
+#footer {
+    margin: 3%;
+}
+
+.footer i {
+    margin: 2.5% 1.5% 1.5%;
+    font-size: 1.5rem;
+}
+
+.footer i:hover {
+    color: #0400ff;
+}
+
+.footer p {
+    padding-bottom: 3%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+    .footer {
+        height: 90px;
+    }
+}
